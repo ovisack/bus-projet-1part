@@ -83,3 +83,14 @@ savingElement.innerText =savingAmount.toFixed(2);
 const remainingElement = document.getElementById('remaining-balance')
 remainingElement.innerText =remainingBalance .toFixed(2);
  })
+//
+ const makeBlueButton=document.getElementById('make-blue')
+ makeBlueButton.onclick=makeBlue;
+ function makeBlue(){
+     document.body.style.backgroundColor='blue';
+ }
+ 
+ function makeRed(){
+     document.body.style.backgroundColor='red';
+ }
+//
